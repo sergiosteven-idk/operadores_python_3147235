@@ -36,3 +36,23 @@ print (y)
 
 y = ((2 * a + c )/ 7) * (a +(4 * a )/ c)
 print (y) 
+'''
+operciones relacionales:
+lasoperaciones atirmeticas
+resultan tener un valor numerico:
+Las operaciones relacionales
+resultan tener un valor booleano:
+True False : (V, F, SI NO )
+> , < , => , <= , != , ==
+JERARQUIA DE OPERACIONES 
+(incluyendo los relacionales)
+1. ()
+2. **
+3. *,/,%
+4. +, -
+5.  > , < , => , <= , != , ==
+6. =
+'''
+
+y = x + 2 * a - c != b + x * a 
+print (y)
