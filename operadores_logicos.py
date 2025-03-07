@@ -5,25 +5,11 @@ and , or , not
 obedecen las tablas de verdad
 
 '''
-op1 = False
-op2 = True
-op3 = op1 or op2
-print(op3)
 
+op1=False
+op2=True
+op3=False
+op4=True
 
-# operador NOT
-op4 = not op2
-print(op4)
-
-'''
-JERARQUIA DEFINITIVA DE OPERADORES
-            ()
-            **
-          *,/, %
-           +,-
-    >, <, !=, ==, <=, >=
-            NOT
-            AND
-            OR
-            -
-'''
+resultado = not op1 and (op2 or op3 and not op1) and not op4
+print(resultado)
