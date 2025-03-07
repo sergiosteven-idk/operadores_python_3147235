@@ -6,10 +6,11 @@ siguen  el siguente orden jerarquico:
 2. +,-
 3. =
 '''
-a = 3
-b = 2
-c = 1 
+a = 7
+b = 3
+c = 7
 x = 5 
+h =1 
 
 y =  a * b + c 
 print (y)  #7
@@ -54,5 +55,11 @@ JERARQUIA DE OPERACIONES
 6. =
 '''
 
-y = x + 2 * a - c != b + x * a 
+y = x + 2 * a - c != b + x * a
+print (y)
+
+y = (a * 2 + c /(3 - b )) + 5 <= (3 * a )/ 5 * b
+print (y)
+
+y = a ** 2 * 3 /(c - x )
 print (y)
